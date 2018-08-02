@@ -12,7 +12,6 @@ string2 = input()
 initialized1 = False
 initialized2 = False
 
-
 for letter in string1:
 
     if not initialized1:

@@ -27,7 +27,6 @@ while TC != 0:
         array_dict[number] = number
 
     for number in sorted(array_n):
-        
 
         key = x - number
         
@@ -42,6 +41,7 @@ while TC != 0:
         print(answer[0])
     
     else:
+        
         final_answer = ""
         for x in range(len(answer)-1):
             final_answer += answer[x] + ", "

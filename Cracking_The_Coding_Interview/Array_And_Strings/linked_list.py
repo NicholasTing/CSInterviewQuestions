@@ -65,7 +65,6 @@ while root_node1 != None:
     checked1.append(root_node1)
     root_node1 = root_node1.next
     
-
 while root_node2 != None:
     print(root_node2.data)
     checked2.append(root_node2)

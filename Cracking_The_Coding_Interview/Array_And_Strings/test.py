@@ -12,6 +12,7 @@ def isPrime(number):
 number = 50
 
 answer_found = 0
+
 for i in range(2, number):
 
     first = isPrime(i) 
@@ -21,4 +22,3 @@ for i in range(2, number):
         print("%d + %d = %d" % (i, number-i, number))
         answer_found = 1
         break
-
