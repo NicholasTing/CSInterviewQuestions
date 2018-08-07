@@ -1,0 +1,1 @@
+num_cases = int(input())
